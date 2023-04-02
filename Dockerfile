@@ -1,4 +1,4 @@
-FROM amazoncorretto:18-jdk
+FROM amazoncorretto:18-alpine-jdk
 
 COPY tarjet/proyecto-0.0.1-SNAPSHOT.jar app.jar
 
