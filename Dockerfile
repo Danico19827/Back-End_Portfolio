@@ -1,6 +1,6 @@
 FROM amazoncorretto:18-alpine-jdk
 
-ADD tarjet/proyecto-0.0.1-SNAPSHOT.jar app.jar
+COPY target/proyecto-0.0.1-SNAPSHOT.jar app.jar
 
 EXPOSE 8080
 
